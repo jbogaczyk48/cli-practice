@@ -5,27 +5,39 @@
 *Look through these now and then use them to test yourself after doing the assignment*
 
 * What is the command line?
+# The command line is a way of interacting with your computer by typing text commands.
 
 * How do you open it on your computer?
+# The CLI is accessed through a program called a terminal or shell.
 
 * How can you navigate into a particular file directory?
     - Where will `cd .` navigate you to?
+    # This won't do anything (seemingly), because . is shorthand for 'the current directory', which is not useful in the case of cd but it is useful in ge
     - Where will `cd ..` navigate you to?
-    - Where will `cd ~` navigate you to?
-    - Where will `cd /` navigate you to?
-
+    # Move one directory up in the hierarchy.
+    - Where will `cd ~` navigate you to?  
+    # Move to the 'home' folder of the current user.
+    - Where will `cd /` navigate you to?  
+    # Move to the root of the entire file system.
 
 * How can you display the name of the directory you are currently in?
+# pwd
 
 * How can you display the contents of the directory you are currently in?
+# ls Lists everything in the current directory.
+# ls -a Same as ls but prints 'hidden' files too.
 
 * How can you create a new directory?
+# mkdir <directory_name>
 
 * How can you create a new file?
+# touch <filename>
 
 * How can you destroy a directory or file?
+# rm <filename>
 
 * How can you rename a directory or file?
+# mv <current_name> <new_name>
 
 ## Assignment:
 
@@ -55,3 +67,5 @@ In this exercise you will practice creating files and directories and deleting t
 5. From within the cli, view the contents of the file you just created (`head`, `tail`, `less`)
 4. Navigate one level up from the `test` directory to it's parent directory
 5. Delete the `test` directory (it contains files now, so you might need to add an option to `rm`!)
+
+# assignment complete
